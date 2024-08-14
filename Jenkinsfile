@@ -13,7 +13,7 @@ pipeline {
             }
         }
     }
-}
+
 post {
         always {
             script {
@@ -40,3 +40,4 @@ post {
             }
         }
     }
+}
