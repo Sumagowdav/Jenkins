@@ -1,41 +1,28 @@
-```markdown
-# Pull Request
+# 📝 YAML Change - Pull Request Template
 
-## Description
-Please include a summary of the changes and the motivation behind them.  
-Explain what problem this PR solves or which feature it adds.
+## 📄 Description
+Briefly explain what YAML file(s) you changed and why.
 
-## Type of change
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to change)
-- [ ] Documentation update
-- [ ] Chore / Maintenance
+## 📂 Files Changed
+List the YAML files that were modified:
+- example.yaml
 
-## Related issues
-Closes # (issue number)  
-Related to: (other issues or PRs)
+## 🔍 Reason for Change
+Why were these changes needed?
 
-## How Has This Been Tested?
-Describe the tests that you ran to verify your changes. Provide instructions so others can reproduce. Include details of your test environment:
-- Operating system / version
-- Node/Python/etc. version
-- Any relevant test command(s)
+## 🧪 Validation
+How did you validate the YAML changes?
+- [ ] YAML syntax validated
+- [ ] Application/tool behavior verified (if applicable)
 
-Example:
-1. Step 1
-2. Step 2
-3. Observe expected behavior
+## ⚠️ Impact Check
+Does this change impact other services or configs?
+- [ ] Yes
+- [ ] No  
+If yes, provide details:
 
-## Checklist
-- [ ] My code follows the project style guide
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] I have added necessary documentation (if appropriate)
-- [ ] I have updated any relevant CHANGELOG or release notes
-
-## Screenshots (if applicable)
-If your change affects UI, add screenshots to help reviewers.
-
-## Additional notes for the reviewer
-Anything else you want the reviewer to focus on (design decisions, caveats, performance considerations).
-```
+## 📌 Checklist
+- [ ] I confirmed there are **no syntax errors** in the YAML
+- [ ] I ensured the structure follows existing standards
+- [ ] I added explanation/comments if needed
+- [ ] I tested the changes (manual or automated)
